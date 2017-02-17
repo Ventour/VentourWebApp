@@ -6,7 +6,7 @@ On Ventour users can create their activies, or join them. Amateur actvites of al
 • Want to look for people joining you in a horse riding on the beach? Create an actvity on Ventour and see if anyone is interested.<br>
 • Want to go out for a montain excursion, see on Ventour if someone has organized a similar trip and join them.
 <hr>
-<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScYIHKRi8NIOKMgBBogwFJn2aGNvppBokbAni-Es5e0RFHxww/viewform?c=0&w=1">Questionary</a><br></h2>
+<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScYIHKRi8NIOKMgBBogwFJn2aGNvppBokbAni-Es5e0RFHxww/viewform?c=0&w=1">Survey</a><br></h2>
 <h2>Milestone 1</h2>
 • <a href="http://ventour.sicuroweb.com/assets/Slide-Ventour-M1-Final.pdf">Presentation Milestone 1</a><br>
 • <a href="http://ventour.altervista.org">Demo</a>
