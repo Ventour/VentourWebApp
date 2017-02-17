@@ -1,0 +1,134 @@
+.input_attivita {
+    width: 100%;
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    border: 1px solid #dadada;
+    outline: none;
+
+}
+
+.input_luogo {
+    width: 100%;
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    border: 1px solid #dadada;
+    outline: none;
+
+}
+
+.input_quando {
+    width: 100%;
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    border: 1px solid #dadada;
+    outline: none;
+    background-color: white;
+}
+
+.button_cerca_home {
+    /*width: 100%;*/
+    color: #fff;
+    background-color: #3c791d;
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    outline: none;
+}
+
+.input_attivita2 {
+    width: 100%;
+    height: 36px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    border: 1px solid #dadada;
+    outline: none;
+
+}
+
+.input_luogo2 {
+    width: 100%;
+    height: 36px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    border: 1px solid #dadada;
+    outline: none;
+
+}
+
+.input_quando2 {
+    width: 100%;
+    height: 36px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    border: 1px solid #dadada;
+    outline: none;
+    background-color: white;
+}
+
+.button_cerca_home2 {
+    /*width: 100%;*/
+    color: #fff;
+    background-color: #3c791d;
+    height: 36px;
+    padding: 10px 16px;
+    font-size: 1em;
+    line-height: 1.3333333;
+    outline: none;
+}
+
+.button_cerca_home:hover {
+    color: #fff;
+    background-color: #88be4c;
+}
+
+h1.title_home {
+    text-align: center;
+    font-size: 6vw;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 0 7px #000;
+}
+
+h2.title_home {
+    text-align: center;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 0 4px #000;
+}
+
+.logo_navbar{
+    margin-top: -3px;
+}
+
+.affix{
+    top: 0px;
+}
+
+.circolare {
+    border-radius:999em;
+    -moz-border-radius:999em;
+    -webkit-border-radius:999em;
+    -o-border-radius: 999em;
+}
+
+.fb_iframe_widget{
+    top: 14px;
+}
+
+body
+{
+    background-image: url('../images/test1.jpg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
