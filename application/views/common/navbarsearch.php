@@ -8,18 +8,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <!--<div class="col-md-2"></div>
                     <div class="col-md-8"></div>
                     <div class="col-md-2"></div>-->
-                    <form action="" method="post" class="navbar-form navbar-left">
+                    <form action="/search" method="post" class="navbar-form navbar-left">
                         <div class="form-group">
                                 <!--<label for="email">Email address:</label>-->
                                 <input type="text" name="attivita" class="form-control" id="cat" placeholder="Activity or category">
                         </div>
                             <!--<label for="pwd">Password:</label>-->
                         <div class="form-group">
-                            <input type="text" name="logo" class="form-control" id="loc" placeholder="Place"
+                            <input type="text" name="luogo" class="form-control" id="loc" placeholder="Place"
                                    value="Rome, Italy"></div>
                         <div class="form-group">
                             <select class="form-control" name="quando"  id="sel">
-                                    <option value="today" selected>Today</option>
+                                    <option value="notselected" selected hidden disabled>When?</option>
+                                    <option value="today">Today</option>
                                     <option value="tomorrow">Tomorrow</option>
                                     <option value="week">This week</option>
                                     <option value="weekend">This weekend</option>
@@ -27,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <option value="nextmonth">Next Month</option>
                             </select></div>
                         <div class="form-group">
-                            <input type="submit" name="invia" value="Search" class="btn btn-default" />
+                            <input type="submit" name="invia" value="Search" class="btn btn-default bottone_navbar" />
                         </div>
                                 <!--<br>
                                 <a href="#ricerca_avanzata" data-toggle="collapse">Ricerca avanzata</a>-->

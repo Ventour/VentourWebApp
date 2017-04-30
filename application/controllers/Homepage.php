@@ -21,7 +21,7 @@ class Homepage extends CI_Controller {
 	public function index()
 	{
 	    $prova["attivita"] = $this->input->post('attivita');
-	    $this->load->view('common/header');
+	    $this->load->view('common/header_home');
 	    $this->load->view('common/navbar');
 		$this->load->view('homepage/home',$prova);
 		$this->load->view('common/footer');

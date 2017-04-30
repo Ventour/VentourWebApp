@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <p>il <?php echo $data; ?></p>
+                    <p>il <?php echo $data_attivita; ?></p>
                 </div>
             </div>
             <div class="row">

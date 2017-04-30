@@ -20,10 +20,14 @@ class Activity extends CI_Controller {
      */
     public function index()
     {
+        $this->load->model('Singola_attivita');
+        $id = $this->input->post("id_att");
+        $data = $this->Singola_attivita->get_attivita($id);
         $this->load->view('common/header');
         $this->load->view('common/navbar');
         $this->load->view('common/navbarsearch');
-        $this->load->view('paginaattivita/attivita');
+        if($data['errore'] == false) $this->load->view('paginaattivita/attivita',$data);
+        else $this->load->view('paginaattivita/nontrovata');
         $this->load->view('common/footer');
     }
 }

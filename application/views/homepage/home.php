@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="row">
         <div class="col-sm-12">
             <div class="well" style="background-color: rgba(255,255,255,0.80);">
-                <form action="/" method="post">
+                <form action="/search" method="post">
                     <div class="row">
                         <div class="col-sm-5 col-xs-8">
                             <!--<label for="email">Email address:</label>-->
@@ -15,12 +15,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <!--<label for="pwd">Password:</label>-->
                         <div class="col-sm-2 hidden-xs">
-                            <input type="text" name="logo" class="input_luogo" id="loc" placeholder="Place"
+                            <input type="text" name="luogo" class="input_luogo" id="loc" placeholder="Place"
                                    value="Rome, Italy">
                         </div>
                         <div class="col-sm-2 hidden-xs">
                             <select class="input_quando" name="quando"  id="sel">
-                                <option value="today" selected>Today</option>
+                                <option value="notselected" selected hidden disabled>When?</option>
+                                <option value="today">Today</option>
                                 <option value="tomorrow">Tomorrow</option>
                                 <option value="week">This week</option>
                                 <option value="weekend">This weekend</option>

@@ -126,9 +126,165 @@ h2.title_home {
     top: 14px;
 }
 
+.risultati_tab_immagine{
+    width:45%;
+    /*height: 100px;*/
+    /*vertical-align: top;*/
+}
+
+.risultati_tab{
+    width:100%;
+}
+
+.risultati_tab_titolo{
+    margin-top: 0px;
+    color: #333;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 0px;
+    /*margin: 0px;*/
+    /*border: 0px;*/
+}
+
+.risultati_tab_well{
+    /*min-height: 300px;*/
+}
+
+.bottone_navbar{
+    color: #fff;
+    background-color: #3c791d;
+}
+
+/* USER PROFILE PAGE */
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(214, 224, 226, 0.2);
+    -webkit-border-top-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card.hovercard .card-background {
+    height: 130px;
+}
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .useravatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .card-info .card-title {
+    padding:0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+
 body
 {
     background-image: url('../images/test1.jpg');
     background-repeat: repeat-x;
     background-attachment: fixed;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('../images/test1.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+.bottone_persona_pagina_attivita{
+    padding: 8px 8px 8px 32px;
+    /*font-family: Arial, Verdana;*/
+    /*background: #f0f0f0 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABfUlEQVQ4y42TP2tUQRTFf3PnPYiLIAiKiKhIsLbxS9hZaykWNmKjgqT0A6SxslRIFRsRv0QwdZB1YyGipImbzWbfnHst3sZdZF92Bw7D/LmH37nDpL1NAyAlHgDXWW18j+A9QBXTnQhu3H704TXS2aU5s/f2/qvTZeXx78goDdE0Z9anusYDmxn4zMAlYglBMsN9zkAzgxwrGGCGnLzIwELCVZbUG+oicDWoLOtBhZwcAQFUZd6gCC/dBPW5Hr+/7VPaCHci2DU5TJVDBe+Q5cyvwT4ucfdleS7noQdURfMEDd4Rwc04OvzDtfWbjCYTitpG/hehoI4IZhmpjTgcj09jUGmeQAVXB4EypbRxjk5O0JTAvgygOBSnap9xsUJC0/nx4BLFW3p78c7Z6SeOJ2ktvL2wUC7G4zHh4uBgxPEkre30Ewb0NrZ0+XDEeUtGXdULZckYDodYMp59vLD9eZftjS31EnARuPr0Xn6yfoVbq/zlrz/pb37SG+DHXyrMGdFXikHpAAAAAElFTkSuQmCC);*/
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
 }
